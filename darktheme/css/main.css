@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    display: flex;
+    min-height: 100vh;
+    background: url(../assets/vinayak-sharma-D4H4WYBl1Rs-unsplash.jpg);
+    background-size:cover;
+    position:relative;
+    opacity:0.8;
+    visibility: visible;
+}
+body::before{
+    content:'';
+    position:absolute;
+    width: 100%;
+    min-height: 100%;
+    background:#000;
+    opacity:0.6;
+    visibility: visible;
+}
+ :root{
+    --sky: linear-gradient(450deg, rgb(173, 231, 233) 0%, rgb(105, 233, 238) 100%);
+
+ }
+button{
+    z-index:1;
+    padding: .8rem 1.5rem;
+    font-weight: 700;
+    margin:50vh auto;
+    outline:none;
+    border:1px solid transparent;
+    border-radius: 2rem;
+    color:#fff;
+    font-size: 1em;
+    transition:1s background;
+
+    background-image: linear-gradient(450deg, rgb(173, 231, 233) 0%, rgb(105, 233, 238) 100%);
+}
+
+button:hover{
+    background:transparent;
+    border:1px solid#fff;
+}

@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+.zoom{
+    overflow: hidden;
+    margin:20vh auto;
+    width:350px;
+    height:350px;
+    transform-Origin:center center;
+    box-shadow: -1px -1px 25px rgba(0,0,0,0.8);
+}
+img{
+    object-fit: cover;
+    width:350px;
+    height:350px;
+}

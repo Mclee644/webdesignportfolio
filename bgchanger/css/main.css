@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    transition:1s;
+}
+button{
+    padding:1rem 2rem;
+    font-size: 2rem;
+    border-radius: 20px;
+    outline:none;
+    border:none;
+    background-image:linear-gradient(450deg ,#ff3354 0%, #556695fa 100%);
+    box-shadow:-1px -0.5px 15px rgba(0,0,0,0.8);
+    color:#fff;
+    margin-bottom:20px;
+}
+p{
+    color:#fff;
+    text-shadow:5px 5px 10px rgba(0,0,0,0.8);
+    font-size:1.3rem;
+    -ms-text-size-adjust: 100%;
+}
